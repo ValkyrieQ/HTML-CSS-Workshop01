@@ -52,3 +52,51 @@ nav ul.menu li a {
     text-decoration: none;
     color: #fff;
 }
+
+/* End nav styling */
+
+#about {
+    height: 420px;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.about-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.about-info-left {
+    float: left;
+}
+
+.about-info-left img {
+    width: 500px;
+}
+
+.about-info-right {
+    float: left;
+    width: 380px;
+    margin-left: 20px;
+}
+
+.about-info-right p {
+    margin: 10px 0px;
+}
+
+.about-info-right a {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.about-info-right a:hover {
+    background: none;
+    color: #000;
+}
