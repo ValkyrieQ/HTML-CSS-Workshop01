@@ -18,3 +18,37 @@
     clear: both;
     display: table;
 }
+
+nav {
+    height: 60px;
+    background-color: #333;
+    border-bottom: 2px solid #ccc;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .logo h1 {
+    margin-top: 15px;
+    color: #fff
+}
+
+nav ul.menu {
+    float: right;
+    list-style: none;
+}
+
+nav ul.menu li {
+    float: left;
+    padding: 20px;
+}
+
+nav ul.menu li:hover {
+    background-color: #000;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
