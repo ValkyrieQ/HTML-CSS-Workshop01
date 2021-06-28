@@ -57,14 +57,12 @@ nav ul.menu li a {
 
 #about {
     height: 420px;
-    background-color: gray;
     overflow: hidden;
 }
 
 .about-info {
     margin-top: 20px;
     padding: 20px;
-    background-color: white;
     overflow: hidden;
 }
 
@@ -100,3 +98,68 @@ nav ul.menu li a {
     background: none;
     color: #000;
 }
+
+/* End about styling */
+
+.service-title {
+    text-align: center;
+    padding: 50px;
+}
+
+.service-left {
+    float: left;
+    width: 50%;
+    background: url(../img/service-1.jpg) no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding: 50px;
+}
+
+.service-left p {
+    padding: 10px 0px;
+}
+
+.service-left .service-btn {
+    margin-top: 10px;
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.service-left .service-btn:hover {
+    background: none;
+    color: #000;
+}
+
+.service-right {
+    float: left;
+    width: 50%;
+    background: url(../img/service-2.jpg) no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding: 50px;
+}
+
+.service-right p {
+    padding: 10px 0px;
+}
+
+.service-right .service-btn {
+    margin-top: 10px;
+    display: inline-block;
+    border: 2px solid #000;
+    background-color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.service-right .service-btn:hover {
+    background: none;
+    color: #000;
+}
+
+/* End services styling */
