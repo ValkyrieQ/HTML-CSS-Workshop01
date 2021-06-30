@@ -249,6 +249,29 @@ footer {
         float: none;
         display: inline-block;
     }
+
+    #about {
+        height: auto;
+    }
+
+    .about-info-left {
+        float: none;
+    }
+
+    .about-info-left img {
+        width: 100%;
+    }
+
+    .about-info-right {
+        float: none;
+        width: 100%;
+        margin-left: 0px;
+        padding: 20px;
+    }
+
+    .about-info-right p {
+        margin-top: 0px;
+    }
 }
 
 
