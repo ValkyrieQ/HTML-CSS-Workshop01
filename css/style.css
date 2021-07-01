@@ -225,6 +225,96 @@ footer {
 
 /* End footer styling */
 
+@media screen and (max-width: 768px) {
+    nav {
+        height: auto;
+        text-align: center;
+    }
+    
+    nav .logo {
+        float: none;
+        padding: 20px;
+    }
+    
+    nav .logo h1 {
+        margin-top: 0px;
+    }
+    
+    nav ul.menu {
+        float: none;
+    }
+    
+    nav ul.menu li {
+        float: none;
+        display: inline-block;
+    }
+
+    .about-info-left img {
+        width: 40vw;
+    }
+
+    .about-info-right {
+        width: 50vw;
+        margin-left: 3vw;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    nav {
+        height: auto;
+        text-align: center;
+    }
+
+    nav .logo {
+        float: none;
+        padding: 20px;
+    }
+
+    nav .logo h1 {
+        margin-top: 0px;
+    }
+
+    nav ul.menu {
+        float: none;
+    }
+
+    nav ul.menu li {
+        float: none;
+        display: inline-block;
+    }
+
+    #about {
+        height: auto;
+        overflow: auto;
+    }
+
+    .about-info-left {
+        float: none;
+    }
+
+    .about-info-left img {
+        width: 100%;
+    }
+
+    .about-info-right {
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .service-left, .service-right {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-info-form, .contact-info-map {
+        float: none;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 480px) {
     nav {
         height: auto;
@@ -277,6 +367,11 @@ footer {
         float: none;
         width: 100%;
         height: auto;
+    }
+
+    .contact-info-form, .contact-info-map {
+        float: none;
+        width: 100%;
     }
 }
 
